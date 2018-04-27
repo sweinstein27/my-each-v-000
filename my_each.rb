@@ -1,5 +1,5 @@
 def my_each (string)
-  string do |word|
+  string.collect do |word|
     yield word
   end
 end
